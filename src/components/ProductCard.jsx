@@ -48,7 +48,7 @@ const ProductCard = ({ product, addToCart }) => {
         />
       </AspectRatio>
 
-      <Box sx={{ p: 2 }}>
+      <Box sx={{ p: 1 }}>
         <Typography
           level="title-lg"
           sx={{
@@ -66,7 +66,7 @@ const ProductCard = ({ product, addToCart }) => {
           {product.description}
         </Typography>
 
-        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+        <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap : 2 }}>
           <Typography
             level="title-lg"
             sx={{ fontWeight: 'bold', color: 'primary.2500' }}
